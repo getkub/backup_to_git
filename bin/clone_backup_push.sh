@@ -6,6 +6,7 @@
 ####################################
 
 # What to backup. 
+git pull origin 
 backup_list="../configs/backup_directories.list"
 thisHost=$(hostname -s)
 thisHost="tempHost"
